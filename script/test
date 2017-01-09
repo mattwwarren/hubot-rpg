@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# bootstrap environment
+source script/bootstrap
+
+rm -rf test-idle.db
+mkdir test-idle.db
+
+cp -f src/idlerpg/testconfig.json src/idlerpg/config.json
+
+mocha --compilers "coffee:coffee-script" test/

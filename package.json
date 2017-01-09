@@ -1,0 +1,42 @@
+{
+  "name": "hubot-idlerpg",
+  "description": "IdleRPG implementation for Hubot",
+  "version": "0.5.0",
+  "author": {
+    "name": "Matt Warren",
+    "email": "matt@warrencomputing.net",
+    "url": "https://github.com/mattwwarren"
+  },
+  "license": "GPL v3",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "idlerpg",
+    "rpg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattwwarren/hubot-rpg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattwwarren/hubot-rpg/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "moment-timezone": "~0.3",
+    "nicetime": "0.0.1",
+    "q": "^1.4.1",
+    "tingodb": "^0.4.2"
+  },
+  "devDependencies": {
+    "hubot-test-helper": "*",
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  }
+}
